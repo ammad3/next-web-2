@@ -5,7 +5,7 @@ export default function Navbar() {
     <>
       <div className="bg-[#252B42] w-[1322px] h-[91px] ml-[50px] flex montserrat">
         <div className="flex ml-[136px] mt-[10px] w-[187px] h-[58px] p-[13px] pr-[35px]">
-          <h3 className="mt-[13px] gap-[10px] font-bold text-2xl tracking-[0.2px]">
+          <h3 className="flex mt-[13px] gap-[10px] font-bold text-2xl tracking-[0.2px]">
             BrandName
           </h3>
         </div>
@@ -30,7 +30,7 @@ export default function Navbar() {
             <button className="text-[14px] font-bold leading-[22px] tracking-[0.0125em] text-right">
               Login
             </button>
-            <button className="bg-[#23A6F0]  w-[110px] h-[52px] rounded-l-[5px] gap-[15px] py-[15px]  font-bold text-[14px] leading-[22px] tracking-[0.2px] ">
+            <button className="flex items-center justify-center bg-[#23A6F0]  w-[110px] h-[52px] rounded-l-[5px] gap-[15px] py-[15px]  px-[20px] font-bold text-[14px] leading-[22px] tracking-[0.2px] ">
               JOIN US
             </button>
           </div>
